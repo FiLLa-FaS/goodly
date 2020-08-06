@@ -4,7 +4,7 @@
   position: absolute;
   bottom: 0;
   right: 217px;
-  background-image: url(/images/snowman.png);
+  background-image: url(../../../images/snowman.png);
   background-size: cover;
   z-index: 2;
 }

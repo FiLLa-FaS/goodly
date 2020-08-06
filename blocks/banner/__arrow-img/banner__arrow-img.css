@@ -1,7 +1,7 @@
 .banner__arrow-img {
   width: 111px;
   height: 231px;
-  background-image: url(/images/banner-arrow.png);
+  background-image: url(../../../images/banner-arrow.png);
   background-size: cover;
   z-index: 2;
 }
