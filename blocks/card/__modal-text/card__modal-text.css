@@ -1,0 +1,17 @@
+.card__modal-text {
+  font-family: Akrobat;
+  font-size: 21px;
+  line-height: normal;
+  color: #004734;
+  margin: 0;
+}
+
+.card__modal-text + .card__modal-text {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .card__modal-text {
+    font-size: 18px;
+  }
+}

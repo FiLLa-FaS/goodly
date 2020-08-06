@@ -1,0 +1,21 @@
+.card__modal {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 35px 35px 35px 22px;
+}
+
+.card__modal::after {
+  position: absolute;
+  top: -10px;
+  right: 90px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 5px 10px 5px;
+  border-color: transparent transparent #ffffff transparent;
+}

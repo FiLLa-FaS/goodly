@@ -1,0 +1,12 @@
+.card__price {
+  font-family: Arial;
+  font-size: 37.5px;
+  color: #d8481c;
+  margin: -10px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .card__price {
+    font-size: 24px;
+  }
+}

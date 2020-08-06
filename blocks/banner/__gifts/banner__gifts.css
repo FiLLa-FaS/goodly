@@ -1,0 +1,15 @@
+.banner__gifts {
+  width: 483px;
+  height: 245px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(/images/gifts.png);
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .banner__gifts {
+    display: none;
+  }
+}

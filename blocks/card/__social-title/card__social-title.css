@@ -1,0 +1,13 @@
+.card__social-title {
+  font-family: Akrobat;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+  color: #828384;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 900px) {
+  .card__social-title {
+    white-space: normal;
+  }
+}

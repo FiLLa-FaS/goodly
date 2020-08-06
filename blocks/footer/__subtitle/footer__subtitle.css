@@ -1,0 +1,10 @@
+.footer__subtitle {
+  display: inline-block;
+  opacity: 0.7;
+  font-family: Akrobat;
+  font-size: 17px;
+  line-height: 1.94;
+  letter-spacing: 0.17px;
+  color: #ffffff;
+  margin: 0;
+}

@@ -1,0 +1,14 @@
+.header__social {
+  width: 41px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #ffffff;
+  border-radius: 50%;
+  list-style: none;
+}
+
+.header__social + .header__social {
+  margin-left: 12px;
+}

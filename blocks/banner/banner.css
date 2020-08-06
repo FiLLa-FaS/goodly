@@ -1,0 +1,26 @@
+@import url(__title/banner__title.css);
+@import url(__text/banner__text.css);
+@import url(__gifts/banner__gifts.css);
+@import url(__snowtree/banner__snowtree.css);
+@import url(__snowman/banner__snowman.css);
+@import url(__sale/banner__sale.css);
+@import url(__arrow/banner__arrow.css);
+@import url(__arrow-img/banner__arrow-img.css);
+@import url(__arrow-text/banner__arrow-text.css);
+
+.banner {
+  position: relative;
+  display: flex;
+  height: 247px;
+  box-shadow: 0 0 10px 0 rgba(16, 17, 17, 0.4);
+  background-color: #f0f0ea;
+  margin-top: 17px;
+  padding: 30px 0 67px;
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    height: auto;
+    padding: 30px 0;
+  }
+}

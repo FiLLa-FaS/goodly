@@ -1,0 +1,11 @@
+.banner__arrow {
+  position: absolute;
+  bottom: -120px;
+  right: 45px;
+}
+
+@media screen and (max-width: 600px) {
+  .banner__arrow {
+    display: none;
+  }
+}

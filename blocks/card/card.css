@@ -1,0 +1,27 @@
+@import url(__top/card__top.css);
+@import url(__image/card__image.css);
+@import url(__order/card__order.css);
+@import url(__prices/card__prices.css);
+@import url(__price-old/card__price-old.css);
+@import url(__price/card__price.css);
+@import url(__button-green/card__button-green.css);
+@import url(__button/card__button.css);
+@import url(__important/card__important.css);
+@import url(__title/card__title.css);
+@import url(__subtitle/card__subtitle.css);
+@import url(__text/card__text.css);
+@import url(__social/card__social.css);
+@import url(__social-title/card__social-title.css);
+@import url(__social-nav/card__social-nav.css);
+@import url(__social-item/card__social-item.css);
+@import url(__modal/card__modal.css);
+@import url(__modal-text/card__modal-text.css);
+@import url(__modal-close/card__modal-close.css);
+
+.card {
+  position: relative;
+  box-shadow: 0 0 15px 0 rgba(16, 17, 17, 0.4);
+  background-color: rgba(223, 228, 236, 0.7);
+  padding: 23px 0 7px;
+  border: none;
+}

@@ -1,0 +1,11 @@
+.banner__arrow-text {
+  position: absolute;
+  bottom: 55px;
+  right: -14px;
+  font-family: Arctikascript;
+  font-size: 24px;
+  color: #ffffff;
+  z-index: 3;
+  white-space: nowrap;
+  transform: rotate(270deg);
+}

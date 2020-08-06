@@ -1,0 +1,16 @@
+.subscribe__arrow-right {
+  width: 78px;
+  height: 51px;
+  position: absolute;
+  top: 50%;
+  right: -126px;
+  background-image: url(/images/subscribe-arrow.png);
+  background-size: cover;
+  transform: translateY(-50%) scale(-1, 1);
+}
+
+@media screen and (max-width: 1000px) {
+  .subscribe__arrow-right {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+.card__price-old {
+  font-family: Arial;
+  font-size: 29.5px;
+  color: #575757;
+  text-decoration: line-through;
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .card__price-old {
+    font-size: 24px;
+  }
+}

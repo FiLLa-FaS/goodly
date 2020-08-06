@@ -1,0 +1,16 @@
+.banner__sale {
+  width: 184px;
+  height: 93px;
+  position: absolute;
+  top: 2px;
+  left: 319px;
+  background-image: url(/images/sale.png);
+  background-size: cover;
+  z-index: 2;
+}
+
+@media screen and (max-width: 600px) {
+  .banner__sale {
+    display: none;
+  }
+}

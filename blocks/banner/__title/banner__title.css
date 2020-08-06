@@ -1,0 +1,23 @@
+.banner__title {
+  text-shadow: 5px 0 0 #fff, -5px 0 0 #fff, 0 5px 0 #fff, 0 -5px 0 #fff,
+    4px 4px #fff, -4px -4px 0 #fff, 4px -4px 0 #fff, -4px 4px 0 #fff,
+    3px 3px #fff, -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff,
+    2px 2px #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff,
+    1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    0px 4px 8px rgba(16, 17, 17, 0.75);
+  font-family: Arctikascript;
+  font-size: 108px;
+  line-height: 0.62;
+  letter-spacing: normal;
+  color: #ba1715;
+}
+
+.banner__title + .banner__title {
+  margin-top: 18px;
+}
+
+@media screen and (max-width: 600px) {
+  .banner__title {
+    font-size: 65px;
+  }
+}

@@ -1,0 +1,13 @@
+@import url(__input/subscribe__input.css);
+@import url(__form/subscribe__form.css);
+@import url(__button/subscribe__button.css);
+@import url(__arrow-left/subscribe__arrow-left.css);
+@import url(__arrow-right/subscribe__arrow-right.css);
+
+.subscribe {
+  position: relative;
+  margin-top: 82px;
+  border: dotted 2px #608f7f;
+  background-color: #80c9b0;
+  padding: 26px 13px;
+}

@@ -1,0 +1,22 @@
+.subscribe__button {
+  color: #fff;
+  background-color: #de0d08;
+  border: solid 2px #de0d08;
+  margin-left: 15px;
+  font-size: 21px;
+  font-weight: normal;
+  letter-spacing: normal;
+  transition: background-color 0.2s, border 0.2s;
+}
+
+.subscribe__button:hover {
+  background-color: #b00000;
+  border: solid 2px #b00000;
+}
+
+@media screen and (max-width: 1100px) {
+  .subscribe__button {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}

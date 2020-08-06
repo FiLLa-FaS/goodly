@@ -1,0 +1,22 @@
+.card__important {
+  align-self: flex-end;
+  font-family: Corbel;
+  font-size: 17px;
+  color: #ab310c;
+  border-bottom: 2px dotted #ab310c;
+  text-decoration: none;
+  transition: color 0.2s, border-bottom 0.2s;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.card__important:hover {
+  color: #000;
+  border-bottom: 2px dotted #000;
+}
+
+@media screen and (max-width: 900px) {
+  .card__important {
+    margin-right: 10px;
+  }
+}

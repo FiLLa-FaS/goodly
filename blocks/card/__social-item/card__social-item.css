@@ -1,0 +1,14 @@
+.card__social-item {
+  width: 27px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aeaeae;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.card__social-item:hover {
+  background-color: #000;
+}

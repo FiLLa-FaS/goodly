@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Tahoma;
+  src: local(Tahoma), url(Tahoma/Tahoma.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Arctikascript;
+  src: local(Arctikascript),
+    url(ArcticaScript/ArcticaScript.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Akrobat;
+  src: local(Akrobat-Regular),
+    url(Acrobat/akrobat-regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Arial;
+  src: local(ArialMT), url(Arial/Arial.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Corbel;
+  src: local(Corbel), url(Corbel/Corbel.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}

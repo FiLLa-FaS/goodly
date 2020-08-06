@@ -1,0 +1,21 @@
+.button {
+  height: 43px;
+  width: 100%;
+  display: inline-block;
+  font-family: Akrobat;
+  font-size: 22.5px;
+  font-weight: bold;
+  letter-spacing: 1.13px;
+  border: solid 2px #e96c41;
+  background-color: #ffffff;
+  color: #b83b11;
+  white-space: nowrap;
+  outline: none;
+  transition: background-color 0.2s, color 0.2s, border 0.2s;
+}
+
+.button:hover {
+  background-color: #b83b11;
+  color: #fff;
+  border: solid 2px #b83b11;
+}

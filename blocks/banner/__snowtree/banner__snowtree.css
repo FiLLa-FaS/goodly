@@ -1,0 +1,15 @@
+.banner__snowtree {
+  width: 493px;
+  height: 245px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url(/images/snowtree.png);
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .banner__snowtree {
+    display: none;
+  }
+}

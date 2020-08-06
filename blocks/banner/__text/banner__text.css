@@ -1,0 +1,8 @@
+.banner__text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  z-index: 3;
+  margin: 0 auto;
+}

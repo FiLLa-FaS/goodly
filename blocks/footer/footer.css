@@ -1,0 +1,15 @@
+@import url(__row/footer__row.css);
+@import url(__subtitle/footer__subtitle.css);
+@import url(__link/footer__link.css);
+
+.footer {
+  margin-top: 58px;
+  padding: 70px 0 155px;
+  background-color: #a4a4a5;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 50px 0;
+  }
+}

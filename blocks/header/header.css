@@ -1,0 +1,9 @@
+@import url(__content/header__content.css);
+@import url(__column/header__column.css);
+@import url(__social/header__social.css);
+@import url(__text/header__text.css);
+@import url(__list/header__list.css);
+
+.header {
+  background-color: #749c8d;
+}

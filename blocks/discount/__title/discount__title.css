@@ -1,0 +1,21 @@
+.discount__title {
+  text-align: center;
+  font-family: Akrobat;
+  font-size: 48px;
+  line-height: 1.31;
+  letter-spacing: 1.92px;
+  color: #004734;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 800px) {
+  .discount__title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .discount__title {
+    font-size: 18px;
+  }
+}

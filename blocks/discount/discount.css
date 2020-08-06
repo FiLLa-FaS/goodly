@@ -1,0 +1,21 @@
+@import url(__title/discount__title.css);
+@import url(__attention/discount__attention.css);
+@import url(__arrow-left/discount__arrow-left.css);
+@import url(__arrow-right/discount__arrow-right.css);
+
+.discount {
+  position: relative;
+  margin-top: 64px;
+  height: 118px;
+  background-image: url(/images/background-discount.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .discount {
+    margin-top: 30px;
+    padding: 0;
+  }
+}

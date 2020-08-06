@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Тестовое задание</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__content wrapper">
+        <div class="header__column">
+          <img src="images/logo.png" alt="логотип сайта" class="header__logo" />
+          <p class="header__text">Ваше лого</p>
+        </div>
+        <div class="header__column">
+          <ul class="header__list">
+            <li class="header__social">
+              <img
+                src="images/vk.png"
+                alt="vk лого"
+                class="header__social-icon"
+              />
+            </li>
+            <li class="header__social">
+              <img
+                src="images/instagram.png"
+                alt="instagram лого"
+                class="header__social-icon"
+              />
+            </li>
+            <li class="header__social">
+              <img
+                src="images/facebook.png"
+                alt="facebook лого"
+                class="header__social-icon"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="banner">
+        <div class="banner__text">
+          <p class="banner__title">
+            Новогодние
+          </p>
+          <p class="banner__title">
+            Скидки!
+          </p>
+        </div>
+        <div class="banner__gifts"></div>
+        <div class="banner__sale"></div>
+        <div class="banner__snowman"></div>
+        <div class="banner__snowtree"></div>
+        <div class="banner__arrow">
+          <div class="banner__arrow-img"></div>
+          <p class="banner__arrow-text">Лови момент!</p>
+        </div>
+      </section>
+
+      <section class="discount wrapper">
+        <h1 class="discount__title">
+          Акция продлится до
+          <span class="discount__attention">14</span> января!
+        </h1>
+        <div class="discount__arrow-left"></div>
+        <div class="discount__arrow-right"></div>
+      </section>
+
+      <section class="cards wrapper">
+        <div class="card">
+          <div class="card__top">
+            <img src="images/product.png" alt="" class="card__image" />
+            <div class="card__order">
+              <div class="card__prices">
+                <p class="card__price-old">8300 ₽</p>
+                <p class="card__price">2490 ₽</p>
+              </div>
+              <button class="card__button-green button">Заказать</button>
+              <button class="card__button button">Подробнее</button>
+              <div class="card__important">Важная информация</div>
+            </div>
+          </div>
+          <div class="card__modal">
+            <button class="card__modal-close" type="button"></button>
+            <p class="card__modal-text">
+              Покупая данный продукт, учтите следующие его особенности:
+            </p>
+            <p class="card__modal-text">
+              1. Курс может поставляться на флеш-накопителе, в цифровом варианте
+              или же как просмотр в онлайн-режиме. Курс без проблем запустится
+              как на Windows, так и на OS X (Mac OS).
+            </p>
+            <p class="card__modal-text">
+              2. Вы защищены 100% гарантией возврата денег на тот случай, если
+              что-то пойдет не так. Гарантия действует 90 дней.
+            </p>
+          </div>
+          <h2 class="card__title">Секреты продуктивной работы</h2>
+          <p class="card__subtitle">за компьютером</p>
+          <p class="card__text">
+            К сожалению, когда человек покупает компьютер или ноутбук, то с ним
+            нет никакого обучающего пособия о том, как использовать покупку
+            максимально эффективно. В итоге большинство пользователей используют
+            свой компьютер на самом примитивном уровне.
+          </p>
+          <div class="card__social">
+            <h3 class="card__social-title">
+              Порекомендуй другу и получи дополнительную скидку!
+            </h3>
+            <div class="card__social-nav">
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/vk.png"
+                  alt="vk лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/instagram.png"
+                  alt="instagram лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/facebook.png"
+                  alt="facebook лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/ok.png"
+                  alt="одноклассники лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/youtube.png"
+                  alt="youtube лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/in.png"
+                  alt="linkedin лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/pen.png"
+                  alt="лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/smile.png"
+                  alt="лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/yandex.png"
+                  alt="яндекс лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/google.png"
+                  alt="google лого"
+                  class="card__social-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__top">
+            <img src="images/product.png" alt="" class="card__image" />
+            <div class="card__order">
+              <div class="card__prices">
+                <p class="card__price-old">8300 ₽</p>
+                <p class="card__price">2490 ₽</p>
+              </div>
+              <button class="card__button-green button">Заказать</button>
+              <button class="card__button button">Подробнее</button>
+              <div class="card__important">Важная информация</div>
+            </div>
+          </div>
+          <div class="card__modal">
+            <button class="card__modal-close" type="button"></button>
+            <p class="card__modal-text">
+              Покупая данный продукт, учтите следующие его особенности:
+            </p>
+            <p class="card__modal-text">
+              1. Курс может поставляться на флеш-накопителе, в цифровом варианте
+              или же как просмотр в онлайн-режиме. Курс без проблем запустится
+              как на Windows, так и на OS X (Mac OS).
+            </p>
+            <p class="card__modal-text">
+              2. Вы защищены 100% гарантией возврата денег на тот случай, если
+              что-то пойдет не так. Гарантия действует 90 дней.
+            </p>
+          </div>
+          <h2 class="card__title">Секреты продуктивной работы</h2>
+          <p class="card__subtitle">за компьютером</p>
+          <p class="card__text">
+            К сожалению, когда человек покупает компьютер или ноутбук, то с ним
+            нет никакого обучающего пособия о том, как использовать покупку
+            максимально эффективно. В итоге большинство пользователей используют
+            свой компьютер на самом примитивном уровне.
+          </p>
+          <div class="card__social">
+            <h3 class="card__social-title">
+              Порекомендуй другу и получи дополнительную скидку!
+            </h3>
+            <div class="card__social-nav">
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/vk.png"
+                  alt="vk лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/instagram.png"
+                  alt="instagram лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/facebook.png"
+                  alt="facebook лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/ok.png"
+                  alt="одноклассники лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/youtube.png"
+                  alt="youtube лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/in.png"
+                  alt="linkedin лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/pen.png"
+                  alt="лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/smile.png"
+                  alt="лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/yandex.png"
+                  alt="яндекс лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/google.png"
+                  alt="google лого"
+                  class="card__social-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__top">
+            <img src="images/product.png" alt="" class="card__image" />
+            <div class="card__order">
+              <div class="card__prices">
+                <p class="card__price-old">8300 ₽</p>
+                <p class="card__price">2490 ₽</p>
+              </div>
+              <button class="card__button-green button">Заказать</button>
+              <button class="card__button button">Подробнее</button>
+              <div class="card__important">Важная информация</div>
+            </div>
+          </div>
+          <div class="card__modal">
+            <button class="card__modal-close" type="button"></button>
+            <p class="card__modal-text">
+              Покупая данный продукт, учтите следующие его особенности:
+            </p>
+            <p class="card__modal-text">
+              1. Курс может поставляться на флеш-накопителе, в цифровом варианте
+              или же как просмотр в онлайн-режиме. Курс без проблем запустится
+              как на Windows, так и на OS X (Mac OS).
+            </p>
+            <p class="card__modal-text">
+              2. Вы защищены 100% гарантией возврата денег на тот случай, если
+              что-то пойдет не так. Гарантия действует 90 дней.
+            </p>
+          </div>
+          <h2 class="card__title">Секреты продуктивной работы</h2>
+          <p class="card__subtitle">за компьютером</p>
+          <p class="card__text">
+            К сожалению, когда человек покупает компьютер или ноутбук, то с ним
+            нет никакого обучающего пособия о том, как использовать покупку
+            максимально эффективно. В итоге большинство пользователей используют
+            свой компьютер на самом примитивном уровне.
+          </p>
+          <div class="card__social">
+            <h3 class="card__social-title">
+              Порекомендуй другу и получи дополнительную скидку!
+            </h3>
+            <div class="card__social-nav">
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/vk.png"
+                  alt="vk лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/instagram.png"
+                  alt="instagram лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/facebook.png"
+                  alt="facebook лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/ok.png"
+                  alt="одноклассники лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/youtube.png"
+                  alt="youtube лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/in.png"
+                  alt="linkedin лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/pen.png"
+                  alt="лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/smile.png"
+                  alt="лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/yandex.png"
+                  alt="яндекс лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/google.png"
+                  alt="google лого"
+                  class="card__social-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__top">
+            <img src="images/product.png" alt="" class="card__image" />
+            <div class="card__order">
+              <div class="card__prices">
+                <p class="card__price-old">8300 ₽</p>
+                <p class="card__price">2490 ₽</p>
+              </div>
+              <button class="card__button-green button">Заказать</button>
+              <button class="card__button button">Подробнее</button>
+              <div class="card__important">Важная информация</div>
+            </div>
+          </div>
+          <div class="card__modal">
+            <button class="card__modal-close" type="button"></button>
+            <p class="card__modal-text">
+              Покупая данный продукт, учтите следующие его особенности:
+            </p>
+            <p class="card__modal-text">
+              1. Курс может поставляться на флеш-накопителе, в цифровом варианте
+              или же как просмотр в онлайн-режиме. Курс без проблем запустится
+              как на Windows, так и на OS X (Mac OS).
+            </p>
+            <p class="card__modal-text">
+              2. Вы защищены 100% гарантией возврата денег на тот случай, если
+              что-то пойдет не так. Гарантия действует 90 дней.
+            </p>
+          </div>
+          <h2 class="card__title">Секреты продуктивной работы</h2>
+          <p class="card__subtitle">за компьютером</p>
+          <p class="card__text">
+            К сожалению, когда человек покупает компьютер или ноутбук, то с ним
+            нет никакого обучающего пособия о том, как использовать покупку
+            максимально эффективно. В итоге большинство пользователей используют
+            свой компьютер на самом примитивном уровне.
+          </p>
+          <div class="card__social">
+            <h3 class="card__social-title">
+              Порекомендуй другу и получи дополнительную скидку!
+            </h3>
+            <div class="card__social-nav">
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/vk.png"
+                  alt="vk лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/instagram.png"
+                  alt="instagram лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/facebook.png"
+                  alt="facebook лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/ok.png"
+                  alt="одноклассники лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/youtube.png"
+                  alt="youtube лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/in.png"
+                  alt="linkedin лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/pen.png"
+                  alt="лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/smile.png"
+                  alt="лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/yandex.png"
+                  alt="яндекс лого"
+                  class="card__social-icon"
+                />
+              </a>
+              <a href="#" class="card__social-item">
+                <img
+                  src="images/socials/google.png"
+                  alt="google лого"
+                  class="card__social-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="subscribe wrapper">
+        <form action="#" class="subscribe__form" name="form-subscribe">
+          <input
+            type="text"
+            placeholder="Ваше имя"
+            class="subscribe__input"
+            name="form-name"
+          />
+          <input
+            type="email"
+            placeholder="Ваш e-mail"
+            class="subscribe__input"
+            name="form-email"
+          />
+          <button class="subscribe__button button" type="submit">
+            Хочу получать новости о скидках
+          </button>
+        </form>
+        <div class="subscribe__arrow-left"></div>
+        <div class="subscribe__arrow-right"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <nav>
+        <div class="footer__row">
+          <a href="#" class="footer__link">Политика конфиденциальности</a>
+          <a href="#" class="footer__link">Публичная оферта</a>
+        </div>
+        <div class="footer__row">
+          <p class="footer__subtitle">Публичная программа:</p>
+          <a href="#" class="footer__link">Регистрация</a>
+          <a href="#" class="footer__link">Вход</a>
+        </div>
+        <div class="footer__row">
+          <p class="footer__subtitle">Клиентский кабинет:</p>
+          <a href="#" class="footer__link">Вход</a>
+        </div>
+      </nav>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

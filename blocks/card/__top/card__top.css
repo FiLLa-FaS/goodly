@@ -1,0 +1,11 @@
+.card__top {
+  display: flex;
+  padding-right: 19px;
+}
+
+@media screen and (max-width: 800px) {
+  .card__top {
+    display: block;
+    padding: 0;
+  }
+}
