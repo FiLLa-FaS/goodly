@@ -4,3 +4,9 @@
   align-items: center;
   padding: 44px 0 10px;
 }
+
+@media screen and (max-width: 1000px) {
+  .header__content {
+    padding: 20px 20px 10px;
+  }
+}

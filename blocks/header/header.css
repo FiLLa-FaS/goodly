@@ -5,5 +5,8 @@
 @import url(__list/header__list.css);
 
 .header {
+  position: sticky;
+  top: 0;
   background-color: #749c8d;
+  z-index: 5;
 }
